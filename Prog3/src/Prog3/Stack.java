@@ -4,10 +4,15 @@ import java.util.Scanner;
 
 public class Stack {
 	Scanner sc = new Scanner(System.in);
-	int top = -1;
-	int a[] = new int[5];
-	int size = 5;
+	int top;
+	int a[];
+	int size;
 	int item;
+	Stack(){
+		top=-1;
+		a= new int[5];
+		size=5;
+	}
 
 	void push() {
 		if (top == size - 1)
