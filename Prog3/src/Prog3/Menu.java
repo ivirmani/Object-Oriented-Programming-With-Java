@@ -6,8 +6,9 @@ public class Menu {
 	static Scanner sc = new Scanner(System.in);
 
 	public static void main(String[] args) {
+		Stack s = new Stack();
 		while (true) {
-			Stack s = new Stack();
+		
 			int ch;
 			System.out.println("\nEnter\n1.PUSH\n2.POP\n3.DISPLAY\n4.EXIT\n");
 			ch = sc.nextInt();
