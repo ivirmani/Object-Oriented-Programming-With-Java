@@ -46,16 +46,16 @@ A data member that stores the radius of a circle.
 =>A function that computes and returns area of a circle
 =>Create two derived classes Sector and Segment that inherit the Circle class. Both classes inherit radius and the function that returns the circle‟s area from Circle.
 In addition to the members inherited from Circle, Sector and Segment have some specific members as follows:
-## Sector
+###### Sector
 a) A data member that stores the control angle of a sector (in radians)
 b) A constructor function with arguments that initialize radius and angle
 c) A function that computes and returns the area of a sector
-## Segment
+###### Segment
 a) A data member that stores the length of a segment in a circle
 b) A constructor function with arguments that initialize radius and length
 c) A function that computes and returns the area of a segment
 =>Create the main () function to instantiate an object of each class and then call appropriate member functions to compute and return the area of a circle, sector and segment.
-### Note :Area_of_circle = pi * r 2
+###### Note :Area_of_circle = pi * r 2
 Area_of_Sector=(1/2) r 2 *θ
 Area_of_segment= r2 *((r-h)/r) – (r-h) (2rh-h2)1/2 Where r is the radius of a circle, θ is the central angle of a sector in radians, h is the length of a segment and ((r-h)/r) is in radians.
 
@@ -73,7 +73,7 @@ a. In package ISE define the „ISE_department‟ class that implements the „D
 b. In the default package define a „MainClass‟ which uses the methods of the above classes and also displays those faculty details whose years of experience is greater than or equal to 20.
 
 
-11. Write a Java Program that does the following related to Packages and Interfaces , Exception Handling:
+#11. Write a Java Program that does the following related to Packages and Interfaces , Exception Handling:
 a. Create an interface Student which gets the name and branch of a student.
 b. Create a package called „StudentPackage‟ which has a user-defined class RegisterStudent.
 c. If a student registers above 30 credits for the semester, the method should throw a user-defined exception called „CreditLimit‟ and display an appropriate message.
@@ -82,5 +82,5 @@ e. In the StudentPackage , collect the marks of all the subjects in 4 semesters 
 25
 
 
-12. a. Write a java program to implement queues of Strings using an ArrayList class of the Collection framework.
+#12. a. Write a java program to implement queues of Strings using an ArrayList class of the Collection framework.
 b. Create a linked list of names (String type). Use an Iterator to traverse through the list and print those names whose length is < 5.
