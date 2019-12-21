@@ -58,13 +58,15 @@ Area_of_Sector=(1/2) r 2 *θ
 Area_of_segment= r2 *((r-h)/r) – (r-h) (2rh-h2)1/2 Where r is the radius of a circle, θ is the central angle of a sector in radians, h is the length of a segment and ((r-h)/r) is in radians.
 
 
-9. Write a Java Program that does the following related to Inheritance:
+#9.
+Write a Java Program that does the following related to Inheritance:
 a. Create an abstract class called Vehicle which contains the „year_of_manufacture‟ data member and two abstract methods „getData()‟ and „putData()‟ with a constructor.
 b. Create two derived classes “TwoWheeler” and “FourWheeler” and implement the abstract methods. Make “FourWheeler” as final class.
 c. Create class „MyTwoWheeler‟ which is a sub-class of “TwoWheeler” and demonstrate the use of super keyword to initialize data members of “MyTwoWheeler”.
 
 
-10. Define an interface „Department‟ with methods to readdata() and printdata(), print_number_designations(), number_research_consultancy_projs(). Define a „Faculty‟ class with members name, designation, age, years of experience, joining_date and subjects_handled.
+#10.
+Define an interface „Department‟ with methods to readdata() and printdata(), print_number_designations(), number_research_consultancy_projs(). Define a „Faculty‟ class with members name, designation, age, years of experience, joining_date and subjects_handled.
 a. In package ISE define the „ISE_department‟ class that implements the „Department‟ interface, accepts n faculty details and define all the methods. Raise a user defined exception „AgeException‟ if the age of the faculty is > 58.
 b. In the default package define a „MainClass‟ which uses the methods of the above classes and also displays those faculty details whose years of experience is greater than or equal to 20.
 
