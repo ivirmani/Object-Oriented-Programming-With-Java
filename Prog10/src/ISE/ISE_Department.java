@@ -22,10 +22,9 @@ public class ISE_Department implements Department {
 			f.age[i] = sc.nextInt();
 			try {
 				if (f.age[i] > 58 || f.age[i] < 0)
-					throw new Exception("Invalid age");
+					throw new AgeException();
 			} catch (Exception e) {
 				System.out.println("Exception handled: " + e);
-				return;
 			}
 			System.out.println("Enter Designation Of Employee");
 			f.designation[i] = sc.next();

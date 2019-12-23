@@ -1,5 +1,8 @@
 package prog10;
 
+import ISE.AgeException;
+
+@SuppressWarnings("unused")
 public interface Department {
 	abstract void readData(int n);
 
